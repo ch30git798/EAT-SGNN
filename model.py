@@ -13,7 +13,7 @@ from torch.nn import TransformerEncoderLayer
 
 class ETA_SGNN(Module):
     def __init__(self, opt, num_node, adj_all, num):
-        super(CombineGraph, self).__init__()
+        super(ETA_SGNN, self).__init__()
         self.opt = opt
 
         self.batch_size = opt.batch_size
