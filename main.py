@@ -94,9 +94,9 @@ def main():
             best_epoch[1] = epoch
             flag = 1
         print('Current Result:')
-        print('\tRecall@10:\t%.4f\tMMR@10:\t%.4f' % (hit, mrr))
+        print('\tRecall@20:\t%.4f\tMMR@20:\t%.4f' % (hit, mrr))
         print('Best Result:')
-        print('\tRecall@10:\t%.4f\tMMR@10:\t%.4f\tEpoch:\t%d,\t%d' % (
+        print('\tRecall@20:\t%.4f\tMMR@20:\t%.4f\tEpoch:\t%d,\t%d' % (
             best_result[0], best_result[1], best_epoch[0], best_epoch[1]))
         bad_counter += 1 - flag
         if bad_counter >= opt.patience:
