@@ -1,4 +1,4 @@
 # EAT-SGNN
 
-# You should execute build first_ Graph.py, a file in PKL format required to generate data. Then you can run main.py
+# You should run build_graph.py first and you can obtain the data files required to run the code.  Then you can run main.py.
 
